@@ -520,8 +520,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Game","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1294879757}
 --- !u!4 &63217955
 Transform:
   m_ObjectHideFlags: 0
@@ -6218,7 +6220,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Sounds","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],"$type":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.AudioClip,
       UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Game","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8300000, guid: 6174a642af5bfac4193b8bd0f1db4650, type: 3}
     - {fileID: 8300000, guid: ce3264cfc4060384fa6d52feefc2a026, type: 3}
@@ -6235,6 +6238,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 5e2bed9cd08d08b4d8ebe73970119c2b, type: 3}
     - {fileID: 8300000, guid: f9fa1629902108748b0bdf49f3ca4478, type: 3}
     - {fileID: 8300000, guid: 24b0b19f783ba9e4da243f4220434981, type: 3}
+    - {fileID: 63217952}
 --- !u!4 &1294879760
 Transform:
   m_ObjectHideFlags: 0
